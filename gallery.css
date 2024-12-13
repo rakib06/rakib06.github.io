@@ -1,10 +1,12 @@
+/* Gallery Carousel Image Styling */
 #gallery-carousel img {
     object-fit: cover;
     height: 500px; /* Set a fixed height for all images */
-    width: 100%; /* Ensure images cover the width of the carousel */
+    width: 100%;   /* Ensure images cover the width of the carousel */
     cursor: pointer; /* Indicate clickable images */
 }
 
+/* Image Modal Styling */
 #image-modal {
     display: none; /* Hidden by default */
     position: fixed;
@@ -17,13 +19,16 @@
     background-color: rgba(0, 0, 0, 0.8); /* Black background with transparency */
 }
 
+/* Modal Content Centering */
 #image-modal-content {
     margin: auto;
     display: block;
     max-width: 90%;
     max-height: 90%;
+    margin-top: 5%; /* Slight top margin for better positioning */
 }
 
+/* Modal Close Button */
 #image-modal-close {
     position: absolute;
     top: 20px;
@@ -35,13 +40,14 @@
     cursor: pointer;
 }
 
-/* Adjust for the fixed navbar */
+/* Adjust for the Fixed Navbar */
 .navbar-fixed-top {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1030;
 }
+
 body {
     padding-top: 70px; /* Adjust the padding to prevent content overlap */
 }
