@@ -2,7 +2,7 @@
 
 
 ## 2020
-Started career as an AI Engineer at cWork, developing RASA NLP chatbots and REST APIs. After the company’s closure post-COVID, joined Genuity Systems as a Software Engineer. Initially worked on a Laravel project, learning the repository pattern and PHP debugging alongside senior developers. Later transitioned to Python machine learning projects.
+Started career as an AI Engineer at cWork, developing RASA NLP chatbots and REST APIs. After the company's closure post-COVID, joined Genuity Systems as a Software Engineer. Initially worked on a Laravel project, learning the repository pattern and PHP debugging alongside senior developers. Later transitioned to Python machine learning projects.
 
 ## 2021
 Focused solely on Python for machine learning, developing text-to-speech and speech-to-text models, and researching Bangla voice-to-text technologies using RASA and Kaldi, achieving 80% accuracy. Joined a new company to work on a machine learning-based recommender system, implementing market basket analysis and association algorithms (Apriori, FP-Growth) on AWS EC2. Ended the year at BRAC IT Services as a Software Engineer, working on software automation testing with Selenium.
