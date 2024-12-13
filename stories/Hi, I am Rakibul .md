@@ -1,7 +1,6 @@
 # About Me
 
 Hi, I'm Rakibul!  
-![Honeymoon at Cox's Bazar Sea Beach](https://raw.githubusercontent.com/rakib06/rakib06.github.io/main/media/photos/gallery/Honeymoon__Cox%E2%9D%9Cs%20Bazar%20Sea%20Beach%20.PNG)
 
 
 ##  Where I Call Home
