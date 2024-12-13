@@ -34,3 +34,14 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+/* Adjust for the fixed navbar */
+.navbar-fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+}
+body {
+    padding-top: 70px; /* Adjust the padding to prevent content overlap */
+}
