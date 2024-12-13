@@ -1,0 +1,37 @@
+h1,
+h2 {
+  width: 100%;
+}
+
+/* h1 {
+  animation: left_to_right 3s ease;
+} */
+sub.tz {
+    text-align: left;
+    animation: right_to_left 3s ease;
+   
+  }
+
+h2.greet{
+  text-align: right;
+  animation: right_to_left 3s ease;
+ 
+}
+
+@keyframes right_to_left {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0;
+  }
+}
+
+@keyframes left_to_right {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0;
+  }
+}
