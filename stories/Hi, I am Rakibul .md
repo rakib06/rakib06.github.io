@@ -1,6 +1,8 @@
 # About Me
 
 Hi, I'm Rakibul!  
+![Honeymoon in Cox's Bazar](https://github.com/rakib06/rakib06.github.io/blob/main/media/photos/gallery/Honeymoon__Cox%E2%9D%9Cs%20Bazar%20Sea%20Beach%20.PNG)
+
 
 ##  Where I Call Home
 I live in Bangladesh, a country of vibrant culture and breathtaking natural beauty. When I'm not busy with my projects, I enjoy exploring new places. My recent adventures took me to Sreemangal and Sylhet, where I loved the serene tea gardens and picturesque landscapes.
