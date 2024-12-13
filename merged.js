@@ -183,18 +183,20 @@ document.addEventListener("DOMContentLoaded", () => {
             return response.json();
         })
         .then(data => {
-            // Find all Markdown files in the directory
-            const timelineFile = data.find(file => file.name.endsWith(".md"));
+            const timelinePromises = data
+                .filter(file => file.type === "file" && file.name.endsWith(".md"))
+                .map(file => {
+                    const timelineName = file.name.replace(".md", "");
+                    return loadMarkdown(`${timelinePath}${file.name}`).then(content => ({
+                        title: timelineName,
+                        ...content
+                    }));
+                });
 
-            if (!timelineFile) {
-                throw new Error("No Markdown file found in the timeline directory.");
-            }
-
-            // Fetch the content of the first Markdown file
-            return loadMarkdown(`${timelinePath}${timelineFile.name}`);
+            return Promise.all(timelinePromises);
         })
-        .then(timeline => {
-            renderCard("timeline-text", "Professional Timeline", timeline);
+        .then(timelines => {
+            renderCards("timeline-text", timelines);
         })
         .catch(error => {
             console.error("Error loading timelines:", error);

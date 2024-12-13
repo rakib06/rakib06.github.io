@@ -1,7 +1,7 @@
 // story.js
 // JavaScript file to fetch and render README.md and Stories as cards with a 'See More' option
 
-const readmePath = "README.md"; // Path to the README.md file in your repository
+// const readmePath = "README.md"; // Path to the README.md file in your repository
 const storiesPath = "stories/"; // Path to the stories directory in your repository
 
 // // Replace these with your GitHub username and repository name
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 // If short version, truncate after 200 characters (or any limit)
                 if (short) {
-                    const truncated = content.substring(0, 200) + "...";
+                    const truncated = content.substring(0, 500) + "...";
                     return {
                         title: storyName,
                         short: marked.parse(truncated),
