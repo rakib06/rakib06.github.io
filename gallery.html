@@ -1,0 +1,58 @@
+<div id="gallery-carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner" id="carousel-items">
+        <!-- Slides will be dynamically loaded here -->
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#gallery-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#gallery-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<script>
+    const repoOwner = "rakib06"; // Your GitHub username
+    const repoName = "rakib06.github.io"; // Your repository name
+    const directoryPath = "media/photos/gallery"; // Directory path in your repo
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${directoryPath}`;
+
+        fetch(apiUrl)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`GitHub API error: ${response.statusText}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                const carouselItems = document.getElementById("carousel-items");
+
+                data.forEach((file, index) => {
+                    if (file.type === "file" && file.name.includes("__")) {
+                        const [name, descriptionWithExt] = file.name.split("__");
+                        const description = descriptionWithExt.split(".")[0];
+                        const imageUrl = file.download_url;
+
+                        const slide = document.createElement("div");
+                        slide.className = `carousel-item ${index === 0 ? 'active' : ''}`;
+
+                        slide.innerHTML = `
+                            <img src="${imageUrl}" class="d-block w-100" alt="${name}">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>${name}</h5>
+                                <p>${description}</p>
+                            </div>
+                        `;
+
+                        carouselItems.appendChild(slide);
+                    }
+                });
+            })
+            .catch(error => {
+                console.error("Error loading gallery images:", error);
+            });
+    });
+</script>
