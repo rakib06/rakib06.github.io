@@ -185,6 +185,7 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(data => {
             const timelinePromises = data
                 .filter(file => file.type === "file" && file.name.endsWith(".md"))
+                //.reverse()
                 .map(file => {
                     const timelineName = file.name.replace(".md", "");
                     return loadMarkdown(`${timelinePath}${file.name}`).then(content => ({
