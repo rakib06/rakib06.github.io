@@ -45,6 +45,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Load and inject markdown for stories
     loadMarkdownToHtml("media/files/md/header.md", "rakibheader");
+    loadMarkdownToHtml("media/files/md/about.md", "about");
+    loadMarkdownToHtml("media/files/md/skills.md", "skills");
+    loadMarkdownToHtml("media/files/md/experience.md", "experience");
+    loadMarkdownToHtml("media/files/md/education.md", "education");
+
+    
+
+
+    
+
 
     // Load and inject markdown for timelines
     // loadMarkdownToHtml("timelines/timeline1.md", "timeline-content");
