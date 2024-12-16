@@ -35,3 +35,43 @@ h2.greet{
     margin-left: 0;
   }
 }
+
+
+.typing {
+  font-size: 1.2rem;
+  font-family: 'Courier New', monospace;
+  color: #333;
+  display: inline-block;
+  border-right: 2px solid #333;
+  padding-right: 5px;
+  animation: blink 0.7s infinite step-end;
+}
+.skills-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  display: none;
+}
+.skills-table th, .skills-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+.skills-table th {
+  background-color: #f1f1f1;
+}
+.skills-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.skills-table td {
+  font-size: 0.9rem;
+}
+/* Typing animation */
+@keyframes blink {
+  50% {
+      border-color: transparent;
+  }
+}
+
+
+
