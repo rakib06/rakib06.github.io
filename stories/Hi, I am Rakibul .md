@@ -15,6 +15,6 @@ I am happily married, and together, my wife and I love discovering new experienc
 - **Learning New Skills**: Whether it’s mastering a new recipe or diving into a fascinating topic, I love staying curious and expanding my horizons.
 
 ## Fun Fact
-I’ve developed a knack for balancing my technical passions with personal growth and experiences. Whether I’m coding or enjoying a quiet day with my loved ones, I believe in making the most out of every moment.
+I've developed a knack for balancing my technical passions with personal growth and experiences. Whether I’m coding or enjoying a quiet day with my loved ones, I believe in making the most out of every moment.
 
 Feel free to reach out or explore the rest of my repository for more insights!
