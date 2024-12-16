@@ -1,4 +1,3 @@
-### whoami
 ```shell
 # whoami
 software-engineer\rakibul
