@@ -1,25 +1,33 @@
-# Skills Overview
+### Skills Overview
 
-## Programming Languages
-**Python** (Advanced), **R** (Intermediate), **Java** (Intermediate), **SQL** (Advanced), **PHP** (Intermediate)
+```bash
+$ skills --overview
++----------------------------------+----------------------------------+
+| Programming Languages           | Machine Learning                 |
+|---------------------------------|----------------------------------|
+| Python (Advanced)               | TensorFlow (Advanced)            |
+| R (Intermediate)                | Scikit-learn (Advanced)          |
+| Java (Intermediate)             |                                  |
+| SQL (Advanced)                  |                                  |
+| PHP (Intermediate)              |                                  |
++----------------------------------+----------------------------------+
+| Deep Learning                   | Big Data Tools                   |
+|---------------------------------|----------------------------------|
+| Keras (Advanced)                | PySpark (Intermediate)           |
+| OpenCV (Advanced)               | Hive (Intermediate)              |
++----------------------------------+----------------------------------+
+| Web Development                 | Cloud Deployment                 |
+|---------------------------------|----------------------------------|
+| Django (Advanced)               | Docker (Advanced)                |
+| Flask (Advanced)                | AWS (Intermediate)               |
++----------------------------------+----------------------------------+
+| RPA Tools                       | Specialized Domain               |
+|----------------------------------|---------------------------------|
+| Python (Advanced)               | Financial Crime Compliance       |
+| Selenium (Advanced)             | (Advanced solutions design)      |
++----------------------------------+----------------------------------+
 
-## Machine Learning
-**TensorFlow** (Advanced), **Scikit-learn** (Advanced)
+$ exit
 
-## Deep Learning
-**Keras** (Advanced), **OpenCV** (Advanced)
+```
 
-## Big Data Tools
-**PySpark** (Intermediate), **Hive** (Intermediate)
-
-## Web Development
-**Django** (Advanced), **Flask** (Advanced)
-
-## Cloud Deployment
-**Docker** (Advanced), **AWS** (Intermediate)
-
-## RPA Tools
-**Python** (Advanced), **Selenium** (Advanced)
-
-## Specialized Domain
-**Financial Crime Compliance**: Advanced solutions design

@@ -2,7 +2,7 @@
 
 ## **Assistant Manager**  
 **Standard Chartered, Bangladesh**  
-*Dates*: [Insert Start Date] - Present  
+*Dates*: March, 2024 - Present  
 
 - **Specialization**: Data analysis, risk management, and automation tools.  
 - Developed data-driven solutions to support **strategic decision-making** across financial products.  
