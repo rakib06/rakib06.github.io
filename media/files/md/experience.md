@@ -12,7 +12,7 @@
 
 ## **Software Engineer**  
 **BRAC IT Services**  
-*Dates*: [Insert Start Date] - [Insert End Date]  
+*Dates*: October, 2021 - February,2024  
 
 - Led a **Python development team**, focusing on **RPA tool development** to automate repetitive processes.  
 - Contributed to client-facing solutions, including **chatbots** and **image processing projects**.  
@@ -22,7 +22,7 @@
 
 ## **Machine Learning Engineer**  
 **Evaly**  
-*Dates*: [Insert Start Date] - [Insert End Date]  
+*Dates*: June, 2021 - September,2021  
 
 - Designed and implemented a **recommender system** to enhance user experience on an **e-commerce platform**.  
 - Leveraged machine learning algorithms to **personalize shopping experiences**, driving increased customer engagement.  
@@ -31,7 +31,7 @@
 
 ## **AI and Software Engineer**  
 **Genuity Systems & cWork**  
-*Dates*: [Insert Start Date] - [Insert End Date]  
+*Dates*: April, 2020 - May, 2021
 
 - Developed innovative solutions in **natural language processing (NLP)**, **speech recognition**, and **image processing**.  
 - Contributed to the development of **NLP-powered chatbots**, Kaldi-based **speech recognition systems**, and **document extraction tools**.  
@@ -46,5 +46,5 @@
 
 ---
 
-### **Note**  
-For further details or collaboration opportunities, feel free to connect via [Insert Contact Info or GitHub Profile].
+<!-- ### **Note**  
+For further details or collaboration opportunities, feel free to connect via [Insert Contact Info or GitHub Profile]. -->

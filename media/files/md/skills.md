@@ -1,51 +1,25 @@
 # Skills Overview
 
 ## Programming Languages
-| **Language**         | **Expertise**       |
-|-----------------------|---------------------|
-| **Python**           | Advanced            |
-| **R**                | Intermediate        |
-| **Java**             | Intermediate        |
-| **SQL**              | Advanced            |
-| **PHP**              | Intermediate        |
+**Python** (Advanced), **R** (Intermediate), **Java** (Intermediate), **SQL** (Advanced), **PHP** (Intermediate)
 
 ## Machine Learning
-| **Framework/Library** | **Expertise**       |
-|-----------------------|---------------------|
-| **TensorFlow**       | Advanced            |
-| **Scikit-learn**     | Advanced            |
+**TensorFlow** (Advanced), **Scikit-learn** (Advanced)
 
 ## Deep Learning
-| **Framework/Tool**   | **Expertise**       |
-|-----------------------|---------------------|
-| **Keras**            | Advanced            |
-| **OpenCV**           | Advanced            |
+**Keras** (Advanced), **OpenCV** (Advanced)
 
 ## Big Data Tools
-| **Tool/Platform**    | **Expertise**       |
-|-----------------------|---------------------|
-| **PySpark**          | Intermediate        |
-| **Hive**             | Intermediate        |
+**PySpark** (Intermediate), **Hive** (Intermediate)
 
 ## Web Development
-| **Framework**        | **Expertise**       |
-|-----------------------|---------------------|
-| **Django**           | Advanced            |
-| **Flask**            | Advanced            |
+**Django** (Advanced), **Flask** (Advanced)
 
 ## Cloud Deployment
-| **Platform/Tool**    | **Expertise**       |
-|-----------------------|---------------------|
-| **Docker**           | Advanced            |
-| **AWS**              | Intermediate        |
+**Docker** (Advanced), **AWS** (Intermediate)
 
 ## RPA Tools
-| **Tool/Framework**   | **Expertise**       |
-|-----------------------|---------------------|
-| **Python**           | Advanced            |
-| **Selenium**         | Advanced            |
+**Python** (Advanced), **Selenium** (Advanced)
 
 ## Specialized Domain
-| **Domain**                            | **Skills**                 |
-|---------------------------------------|----------------------------|
-| **Financial Crime Compliance**        | Advanced Solutions Design  |
+**Financial Crime Compliance**: Advanced solutions design
