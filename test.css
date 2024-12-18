@@ -72,6 +72,32 @@ h2.greet{
       border-color: transparent;
   }
 }
+#google-scholar {
+  text-align: center;
+  margin-top: 20px;
+}
 
+.scholar-link {
+  text-decoration: none;
+  color: #4285f4; /* Google Scholar blue */
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid #4285f4;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.scholar-link:hover {
+  background-color: #4285f4;
+  color: white;
+}
+
+.scholar-icon {
+  height: 20px;
+  width: auto;
+}
 
 
